@@ -1,0 +1,165 @@
+
+@import "~slick-carousel/slick/slick.css";
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.home-container {
+  width: 100%;
+
+}
+
+.additional-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.boxes-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.info-column {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.info-column img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.info-column h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.info-column p {
+  font-size: 16px;
+  color: #666;
+  text-align: justify;
+}
+
+.info-column.img-column {
+  background-image: url('./h_images/11826.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  height: 300px; /* Adjust the height as needed */
+}
+
+
+/* Home.css */
+
+
+
+.offers-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Allows wrapping for smaller screens */
+  margin: 20px 0;
+  width: 100%;
+
+ 
+}
+
+.offer-box {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out; /* Smooth transition for the zoom effect */
+  background-color: white; /* Ensure background color is white */
+  text-align: center;
+  margin: 10px;
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Ensure text color is inherited */
+  flex: 1; /* Allow boxes to grow and shrink */
+  min-width: 250px; /* Ensure boxes don't get too small */
+  max-width: 300px; /* Ensure boxes don't get too large */
+}
+
+.offer-box:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.offer1 {
+  background-image: url('./h_images/offer_01.png'); /* Update the path to your image */
+  background-color: #e0f7fa; /* Set background color */
+}
+
+.offer2 {
+  background-image: url('./h_images/offer_02.png'); /* Update the path to your image */
+  background-color: #fce4ec; /* Set background color */
+}
+
+.offer3 {
+  background-image: url('./h_images/offer_03.png'); /* Update the path to your image */
+  background-color: #f3e5f5; /* Set background color */
+}
+
+.offer-content {
+  position: relative;
+  text-align: center;
+  color: #333;
+}
+
+.offer-image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.offer-text {
+  padding: 20px;
+}
+
+.offer-text h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #333; /* Ensure the text color is dark */
+}
+
+.offer-text p {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #666; /* Lighter text color for description */
+}
+
+.offer-text button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #f09eca;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: background-color 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.offer-text button:hover {
+  background-color: #333; /* Darker background color on hover */
+  color: white; /* Ensure text color remains white */
+}

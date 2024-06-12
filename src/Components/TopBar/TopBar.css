@@ -1,0 +1,28 @@
+.top-bar {
+    background-color: #f09eca; /* Light pink background */
+    color: white; /* White text color */
+    padding: 10px 0; /* Padding around the text */
+    width: 100%; /* Full width */
+    text-align: center; /* Center the text */
+    position: fixed; /* Fix the position at the top */
+    top: 0; /* Align at the very top */
+    left: 0; /* Align to the left */
+    z-index: 1001; /* Ensure it's above other elements, including the nav */
+  }
+  
+  .top-bar-content {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+  }
+  
+  .top-bar-content span {
+    margin: 0 15px; /* Add space between items */
+    display: flex; /* Use flexbox for the icon and text */
+    align-items: center; /* Center the icon and text vertically */
+  }
+  
+  .top-bar-content span svg {
+    margin-right: 8px; /* Space between the icon and the text */
+  }
+  

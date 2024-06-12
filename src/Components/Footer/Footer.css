@@ -1,0 +1,70 @@
+/* Footer.css */
+
+.footer-container {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Allows wrapping for smaller screens */
+  background-image: url('./f_images/footer.jpg'); /* Update the path to your background image */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-top: 1px solid #e0e0e0;
+  color: #333; /* Make the text color darker */
+}
+
+.footer-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.7); /* Light opacity overlay */
+  z-index: 0; /* Ensure the overlay is behind the content */
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 20px;
+  text-align: left; /* Align text to the left */
+  position: relative; /* Add relative positioning for z-index stacking */
+  z-index: 1; /* Ensure content is above the overlay */
+}
+
+.footer-logo {
+  width: 200px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.footer-slogan {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #333; /* Make the text color darker */
+}
+
+.footer-column h3 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #333; /* Make the text color darker */
+  text-align: left; /* Align header text to the left */
+}
+
+.footer-menu {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+/* add styles for footer menu a */
+.footer-menu a {
+  text-decoration: none;
+  color: #333; /* Make the text color darker */
+}
+
+
+
+.footer-column p {
+  margin: 5px 0;
+  color: #333; /* Make the text color darker */
+}

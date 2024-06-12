@@ -1,0 +1,55 @@
+/* src/components/Box.css */
+.box {
+    background-color: #fff; /* White background */
+    padding: 10px; /* Padding inside the box */
+    margin: 10px; /* Margin around the box */
+    text-align: center; /* Center the text */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Light shadow */
+    width: calc(33.33% - 20px); /* 33.33% width with margin */
+    
+  }
+  
+  .icon {
+    width: 80px; /* Size of the round background */
+    height: 80px; /* Size of the round background */
+    display: flex; /* Flexbox for centering */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    border-radius: 50%; /* Round shape */
+    background-color: #f1b5d3; /* Background color */
+    margin: 0 auto 10px; /* Margin for spacing */
+  }
+  
+  h3 {
+    font-size: 24px; /* Heading font size */
+    margin: 10px 0; /* Margin above and below the heading */
+  }
+  
+  p {
+    font-size: 16px; /* Paragraph font size */
+    color: #666; /* Grey text color */
+  }
+
+
+  
+  .additional-content {
+    width: 100%; /* Full width */
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center align items horizontally */
+  }
+  
+  .boxes-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto; /* Center the container horizontally */
+  }
+
+  .icon svg {
+    font-size: 40px; /* Size of the icon */
+    color: #fff; /* Icon color */
+  }

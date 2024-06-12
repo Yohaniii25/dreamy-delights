@@ -1,0 +1,87 @@
+/* TopBar.css */
+.top-bar {
+  background-color: #f09eca; /* Light pink background */
+  color: white; /* White text color */
+  padding: 10px 0; /* Padding around the text */
+  width: 100%; /* Full width */
+  text-align: center; /* Center the text */
+  position: fixed; /* Fix the position at the top */
+  top: 0; /* Align at the very top */
+  left: 0; /* Align to the left */
+  z-index: 1001; /* Ensure it's above other elements, including the nav */
+}
+
+.top-bar-content {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically */
+}
+
+.top-bar-content span {
+  margin: 0 15px; /* Add space between items */
+  display: flex; /* Use flexbox for the icon and text */
+  align-items: center; /* Center the icon and text vertically */
+}
+
+.top-bar-content span svg {
+  margin-right: 8px; /* Space between the icon and the text */
+}
+
+/* NavBar.css */
+* {
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+  background-color: #ffffff; /* White background */
+  padding: 1rem; /* Padding around the nav */
+  width: 100%; /* Full width */
+  position: fixed; /* Fix the position at the top */
+  top: 40px; /* Align just below the top bar */
+  left: 0; /* Align to the left */
+  z-index: 1000; /* Ensure it's above other elements */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Space between logo and links */
+}
+
+.logo-container {
+  margin-right: auto; /* Align logo to the left */
+}
+
+.logo {
+  height: 40px; /* Adjust the height as needed */
+  width: auto; /* Maintain aspect ratio */
+}
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the items horizontally */
+}
+
+li {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+li a {
+  display: block; /* Make the links fill the list items */
+  color: rgb(0, 0, 0); /* Black text color */
+  text-align: center; /* Center text */
+  padding: 14px 16px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+li a:hover {
+  color: white; /* White text color on hover */
+  background-color: #f09eca; /* Darker pink background on hover */
+}
+
+body {
+  padding-top: 120px; /* Add padding to the top of the body to prevent content from being hidden under the navbar */
+}

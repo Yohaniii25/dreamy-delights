@@ -1,0 +1,66 @@
+/* src/components/Carousel.css */
+.carousel-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .carousel-item {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .carousel-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  
+  .carousel-item p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Specific background images for each item */
+  .carousel-image.for-her {
+    background-image: url('./c_images/cat-01.jpg');
+  }
+  
+  .carousel-image.for-baby {
+    background-image: url('./c_images/cat-02.jpg');
+  }
+  
+  .carousel-image.for-him {
+    background-image: url('./c_images/cat-03.jpg');
+  }
+  
+  .carousel-image.for-occasions {
+    background-image: url('./c_images/cat-04.jpg');
+  }
+  
+.carousel-title {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.offer-box1 {
+  background-color: #af5052;
+}
+  
